@@ -65,6 +65,7 @@ body{
 
 .top-image:hover .image-overlay{
     display: block;
+    cursor:pointer;
 }
 
 h1{
