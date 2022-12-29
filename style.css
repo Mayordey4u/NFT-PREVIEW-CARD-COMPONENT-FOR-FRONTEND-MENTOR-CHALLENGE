@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    Font-size: 18px;
+    background-color:hsl(217, 54%, 11%) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+
+}
+.wrapper{
+    
+    background-color:hsl(216, 50%, 16%) ;
+    border-radius: 10px;
+    margin:2rem 1rem;
+    box-shadow: 1px 0px 11px 5px rgba(7,7,18,0.75);
+    padding: 20px;
+}    
+ 
+.top-image{
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-img{
+    width:100%;
+    cursor: pointer;
+    display:block;   
+}
+
+
+
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+}
+
+.image-overlay img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.top-image:hover .image-overlay{
+    display: block;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:hsl(0, 0%, 100%) ;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+p{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.mainsection{
+    display: flex;
+    justify-content: space-between;
+    margin:15px 0px ;
+}
+
+.eth,.clock{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.eth p{
+    color:hsl(178, 100%, 50%) ;
+    font-weight: 400;
+}
+
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.bottom img{
+    width: 35px;
+    border-radius: 50%;
+    border: white solid 1px;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+span:hover{
+    color:hsl(178, 100%, 50%) ;
+
+}
