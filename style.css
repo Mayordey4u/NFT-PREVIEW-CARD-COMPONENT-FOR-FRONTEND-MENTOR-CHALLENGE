@@ -103,7 +103,7 @@ p{
 
 
 hr{
-    color: hsl(215, 32%, 27%);
+    border-color:hsl(215, 32%, 27%);
 }
 
 .bottom{
